@@ -1,0 +1,42 @@
+.carouselImg {
+  width: 40vw;
+  height: 35vh;
+}
+
+.slider-container {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  margin: 0 auto; /* Center the slider */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 2vh;
+}
+
+.slick-prev, .slick-next{
+    color: black;
+}
+
+.internalCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkBox{
+    transform: scale(1.5);
+}

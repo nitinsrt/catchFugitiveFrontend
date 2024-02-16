@@ -1,0 +1,71 @@
+.copChoicesContainer{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(33, 37, 41, 0.5);
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    padding: 2vh;
+}
+
+.choicesHeader{
+   width: 100%;
+   color: rgb(233, 236, 239);
+   margin-bottom: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inputContainer{
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8vw;
+}
+
+.labelText{
+    margin-right: 2vw;
+    font-size: 2vh;
+    color: white;
+}
+
+.input{
+    width: 20vw;
+    height: 3vh;
+}
+
+.copPic{
+    width: 30vw;
+    height: 20vw;
+}
+
+.copImgContainer{
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.choiceSubContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 2vh;
+}
+
+.carouselContainer{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

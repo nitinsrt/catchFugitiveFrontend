@@ -1,0 +1,36 @@
+.resultLine{
+    width: 30vw;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resultContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 50vh;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 4px;
+    margin-top: 4vh;
+    flex-direction: row;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.line{
+    color: white;
+}
+

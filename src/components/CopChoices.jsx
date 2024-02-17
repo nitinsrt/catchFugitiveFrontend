@@ -19,7 +19,7 @@ const CopChoices = () => {
     setAppState(initialState);
   };
 
-  const backend_url="https://catchfugitive-backend.netlify.app"
+  const backend_url="https://catch-fugitive-backend.onrender.com"
 
   // Function to fetch data from backend on component mount
   useEffect(() => {
